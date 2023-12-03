@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" import="com.user.beans.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,7 @@
 
 </head>
 <body>
-	
+        			
 
     <div class="login" >
     	<div class="flexContainer">
@@ -19,8 +19,8 @@
 	   		Login
 	   		</div>
 	   		
-			<form id = "formStyle" method="post" action=" " id="login-form" >	
-				<input type="text" name="userName" placeholder="Email">
+			<form id = "formStyle" action="/2023WebprojectA/login.do" id="login-form" method="post">	
+				<input type="text" name="userEmail" placeholder="Email">
 				<input type="password" name="userPassword" placeholder="Password">
 				  
 				<div id = "Regilogin">
